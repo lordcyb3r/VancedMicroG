@@ -21,7 +21,7 @@ apply plugin: 'kotlin-kapt'
 dependencies {
     implementation 'com.squareup.wire:wire-runtime:4.4.1'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation "su.litvak.chromecast:api-v2:0.11.3"
+    implementation "info.armills.chromecast-java-api-v2:api-v2-raw-request:0.10.4-raw-request-1"
     implementation 'androidx.webkit:webkit:1.4.0'
 
     implementation project(':play-services-cronet-core')
