@@ -17,7 +17,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mgoogle.android.gms">
-
+  
+    <attribution android:label="@string/empty_string" android:tag="com.google.android.gms.cast.framework.dynamite"/>
+  
     <permission
         android:name="com.mgoogle.android.c2dm.permission.RECEIVE"
         android:label="@string/perm_c2dm_receive_label"
