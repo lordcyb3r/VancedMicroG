@@ -3,10 +3,10 @@ name: Debug APK Builder
 on:
   push:
     branches:
-      - master
+      - aaa
   pull_request:
     branches:
-      - master
+      - aaa
 
 jobs:
   build:
