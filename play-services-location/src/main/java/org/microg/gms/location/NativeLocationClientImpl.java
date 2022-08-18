@@ -32,16 +32,16 @@ import android.os.RemoteException;
 import android.os.SystemClock;
 import android.util.Log;
 
-import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.android.gms.location.FusedLocationProviderApi;
-import com.google.android.gms.location.Geofence;
-import com.google.android.gms.location.GeofenceStatusCodes;
-import com.google.android.gms.location.GeofencingEvent;
-import com.google.android.gms.location.GeofencingRequest;
-import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.internal.IGeofencerCallbacks;
-import com.google.android.gms.location.internal.ParcelableGeofence;
+import app.revanced.android.gms.common.api.CommonStatusCodes;
+import app.revanced.android.gms.location.FusedLocationProviderApi;
+import app.revanced.android.gms.location.Geofence;
+import app.revanced.android.gms.location.GeofenceStatusCodes;
+import app.revanced.android.gms.location.GeofencingEvent;
+import app.revanced.android.gms.location.GeofencingRequest;
+import app.revanced.android.gms.location.LocationListener;
+import app.revanced.android.gms.location.LocationRequest;
+import app.revanced.android.gms.location.internal.IGeofencerCallbacks;
+import app.revanced.android.gms.location.internal.ParcelableGeofence;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -23,9 +23,9 @@ import android.util.Log;
 
 import androidx.lifecycle.LifecycleService;
 
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
-import com.google.android.gms.common.internal.IGmsServiceBroker;
+import app.revanced.android.gms.common.internal.GetServiceRequest;
+import app.revanced.android.gms.common.internal.IGmsCallbacks;
+import app.revanced.android.gms.common.internal.IGmsServiceBroker;
 
 import org.microg.gms.common.GmsService;
 

@@ -16,7 +16,7 @@
 
 package org.microg.gms.ui;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 import org.microg.tools.ui.AbstractSettingsActivity;
 

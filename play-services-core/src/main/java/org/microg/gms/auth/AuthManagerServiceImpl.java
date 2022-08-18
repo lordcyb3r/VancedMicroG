@@ -33,10 +33,10 @@ import android.os.RemoteException;
 import android.util.Log;
 
 import com.google.android.auth.IAuthManagerService;
-import com.google.android.gms.auth.AccountChangeEventsRequest;
-import com.google.android.gms.auth.AccountChangeEventsResponse;
-import com.google.android.gms.auth.TokenData;
-import com.google.android.gms.common.api.Scope;
+import app.revanced.android.gms.auth.AccountChangeEventsRequest;
+import app.revanced.android.gms.auth.AccountChangeEventsResponse;
+import app.revanced.android.gms.auth.TokenData;
+import app.revanced.android.gms.common.api.Scope;
 
 import org.microg.gms.common.PackageUtils;
 

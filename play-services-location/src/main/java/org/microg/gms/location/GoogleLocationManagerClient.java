@@ -21,8 +21,8 @@ import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
 
-import com.google.android.gms.common.internal.IGmsServiceBroker;
-import com.google.android.gms.location.internal.IGoogleLocationManagerService;
+import app.revanced.android.gms.common.internal.IGmsServiceBroker;
+import app.revanced.android.gms.location.internal.IGoogleLocationManagerService;
 
 import org.microg.gms.common.Constants;
 import org.microg.gms.common.GmsClient;

@@ -20,16 +20,16 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.appdatasearch.CorpusStatus;
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.search.corpora.ClearCorpusRequest;
-import com.google.android.gms.search.corpora.GetCorpusInfoRequest;
-import com.google.android.gms.search.corpora.GetCorpusStatusRequest;
-import com.google.android.gms.search.corpora.GetCorpusStatusResponse;
-import com.google.android.gms.search.corpora.RequestIndexingRequest;
-import com.google.android.gms.search.corpora.RequestIndexingResponse;
-import com.google.android.gms.search.corpora.internal.ISearchCorporaCallbacks;
-import com.google.android.gms.search.corpora.internal.ISearchCorporaService;
+import app.revanced.android.gms.appdatasearch.CorpusStatus;
+import app.revanced.android.gms.common.api.Status;
+import app.revanced.android.gms.search.corpora.ClearCorpusRequest;
+import app.revanced.android.gms.search.corpora.GetCorpusInfoRequest;
+import app.revanced.android.gms.search.corpora.GetCorpusStatusRequest;
+import app.revanced.android.gms.search.corpora.GetCorpusStatusResponse;
+import app.revanced.android.gms.search.corpora.RequestIndexingRequest;
+import app.revanced.android.gms.search.corpora.RequestIndexingResponse;
+import app.revanced.android.gms.search.corpora.internal.ISearchCorporaCallbacks;
+import app.revanced.android.gms.search.corpora.internal.ISearchCorporaService;
 
 import java.util.HashMap;
 import java.util.Map;

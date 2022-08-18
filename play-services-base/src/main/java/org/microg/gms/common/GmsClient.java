@@ -26,10 +26,10 @@ import android.os.IInterface;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
-import com.google.android.gms.common.internal.IGmsServiceBroker;
+import app.revanced.android.gms.common.ConnectionResult;
+import app.revanced.android.gms.common.internal.GetServiceRequest;
+import app.revanced.android.gms.common.internal.IGmsCallbacks;
+import app.revanced.android.gms.common.internal.IGmsServiceBroker;
 
 import org.microg.gms.common.api.ApiClient;
 import org.microg.gms.common.api.ConnectionCallbacks;

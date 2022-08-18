@@ -72,7 +72,7 @@ class ServiceProvider : ContentProvider() {
 
     override fun getType(uri: Uri): String {
         Log.d(TAG, "getType: $uri")
-        return "vnd.android.cursor.item/com.google.android.gms.chimera"
+        return "vnd.android.cursor.item/app.revanced.android.gms.chimera"
     }
 
     companion object {

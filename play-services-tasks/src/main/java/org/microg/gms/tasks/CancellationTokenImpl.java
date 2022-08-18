@@ -5,9 +5,9 @@
 
 package org.microg.gms.tasks;
 
-import com.google.android.gms.tasks.CancellationToken;
-import com.google.android.gms.tasks.DuplicateTaskCompletionException;
-import com.google.android.gms.tasks.OnTokenCanceledListener;
+import app.revanced.android.gms.tasks.CancellationToken;
+import app.revanced.android.gms.tasks.DuplicateTaskCompletionException;
+import app.revanced.android.gms.tasks.OnTokenCanceledListener;
 
 public class CancellationTokenImpl extends CancellationToken {
     private final TaskImpl<Void> task = new TaskImpl<>();

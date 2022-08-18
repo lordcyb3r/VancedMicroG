@@ -17,7 +17,7 @@ import android.util.Log;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 public class ForegroundServiceContext extends ContextWrapper {
     private static final String TAG = "ForegroundService";

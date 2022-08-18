@@ -31,11 +31,11 @@ import android.os.Build;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.location.ILocationCallback;
-import com.google.android.gms.location.ILocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationResult;
-import com.google.android.gms.location.internal.LocationRequestUpdateData;
+import app.revanced.android.gms.location.ILocationCallback;
+import app.revanced.android.gms.location.ILocationListener;
+import app.revanced.android.gms.location.LocationRequest;
+import app.revanced.android.gms.location.LocationResult;
+import app.revanced.android.gms.location.internal.LocationRequestUpdateData;
 
 import java.util.Arrays;
 import java.util.UUID;

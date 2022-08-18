@@ -5,7 +5,7 @@
 
 package org.microg.gms.tasks;
 
-import com.google.android.gms.tasks.Task;
+import app.revanced.android.gms.tasks.Task;
 
 public interface UpdateListener<TResult> {
     void onTaskUpdate(Task<TResult> task);

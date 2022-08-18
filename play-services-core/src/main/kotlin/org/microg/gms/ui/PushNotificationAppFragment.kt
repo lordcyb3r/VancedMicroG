@@ -16,8 +16,8 @@ import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.mgoogle.android.gms.R
-import com.mgoogle.android.gms.databinding.PushNotificationAppFragmentBinding
+import app.revanced.android.gms.R
+import app.revanced.android.gms.databinding.PushNotificationAppFragmentBinding
 
 
 class PushNotificationAppFragment : Fragment(R.layout.push_notification_fragment) {

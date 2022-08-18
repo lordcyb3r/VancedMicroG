@@ -18,8 +18,8 @@ package org.microg.gms.common;
 
 import android.os.Bundle;
 
-import com.google.android.gms.common.GooglePlayServicesClient;
-import com.google.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.GooglePlayServicesClient;
+import app.revanced.android.gms.common.api.GoogleApiClient;
 
 public final class ForwardConnectionCallbacks implements GoogleApiClient.ConnectionCallbacks {
     private final GooglePlayServicesClient.ConnectionCallbacks callbacks;

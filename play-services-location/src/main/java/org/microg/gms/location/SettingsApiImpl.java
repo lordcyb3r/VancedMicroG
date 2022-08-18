@@ -16,12 +16,12 @@
 
 package org.microg.gms.location;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.location.LocationSettingsRequest;
-import com.google.android.gms.location.LocationSettingsResult;
-import com.google.android.gms.location.SettingsApi;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.PendingResult;
+import app.revanced.android.gms.common.api.Status;
+import app.revanced.android.gms.location.LocationSettingsRequest;
+import app.revanced.android.gms.location.LocationSettingsResult;
+import app.revanced.android.gms.location.SettingsApi;
 
 import org.microg.gms.common.api.InstantPendingResult;
 

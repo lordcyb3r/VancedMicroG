@@ -21,19 +21,19 @@ import android.os.Parcelable;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.search.global.GetCurrentExperimentIdsRequest;
-import com.google.android.gms.search.global.GetCurrentExperimentIdsResponse;
-import com.google.android.gms.search.global.GetGlobalSearchSourcesRequest;
-import com.google.android.gms.search.global.GetGlobalSearchSourcesResponse;
-import com.google.android.gms.search.global.GetPendingExperimentIdsRequest;
-import com.google.android.gms.search.global.GetPendingExperimentIdsResponse;
-import com.google.android.gms.search.global.SetExperimentIdsRequest;
-import com.google.android.gms.search.global.SetExperimentIdsResponse;
-import com.google.android.gms.search.global.SetIncludeInGlobalSearchRequest;
-import com.google.android.gms.search.global.SetIncludeInGlobalSearchResponse;
-import com.google.android.gms.search.global.internal.IGlobalSearchAdminCallbacks;
-import com.google.android.gms.search.global.internal.IGlobalSearchAdminService;
+import app.revanced.android.gms.common.api.Status;
+import app.revanced.android.gms.search.global.GetCurrentExperimentIdsRequest;
+import app.revanced.android.gms.search.global.GetCurrentExperimentIdsResponse;
+import app.revanced.android.gms.search.global.GetGlobalSearchSourcesRequest;
+import app.revanced.android.gms.search.global.GetGlobalSearchSourcesResponse;
+import app.revanced.android.gms.search.global.GetPendingExperimentIdsRequest;
+import app.revanced.android.gms.search.global.GetPendingExperimentIdsResponse;
+import app.revanced.android.gms.search.global.SetExperimentIdsRequest;
+import app.revanced.android.gms.search.global.SetExperimentIdsResponse;
+import app.revanced.android.gms.search.global.SetIncludeInGlobalSearchRequest;
+import app.revanced.android.gms.search.global.SetIncludeInGlobalSearchResponse;
+import app.revanced.android.gms.search.global.internal.IGlobalSearchAdminCallbacks;
+import app.revanced.android.gms.search.global.internal.IGlobalSearchAdminService;
 
 public class GlobalSearchAdminImpl extends IGlobalSearchAdminService.Stub {
     private static final String TAG = "GmsIcingGlobalImpl";

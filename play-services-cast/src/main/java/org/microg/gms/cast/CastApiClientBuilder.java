@@ -19,7 +19,7 @@ package org.microg.gms.cast;
 import android.content.Context;
 import android.os.Looper;
 
-import com.google.android.gms.cast.Cast;
+import app.revanced.android.gms.cast.Cast;
 
 import org.microg.gms.common.api.ApiClient;
 import org.microg.gms.common.api.ApiClientBuilder;

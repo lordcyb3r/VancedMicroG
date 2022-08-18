@@ -8,10 +8,10 @@ package org.microg.gms.measurement
 import android.os.Bundle
 import android.os.Parcel
 import android.util.Log
-import com.google.android.gms.common.api.CommonStatusCodes
-import com.google.android.gms.common.internal.GetServiceRequest
-import com.google.android.gms.common.internal.IGmsCallbacks
-import com.google.android.gms.measurement.internal.*
+import app.revanced.android.gms.common.api.CommonStatusCodes
+import app.revanced.android.gms.common.internal.GetServiceRequest
+import app.revanced.android.gms.common.internal.IGmsCallbacks
+import app.revanced.android.gms.measurement.internal.*
 import org.microg.gms.BaseService
 import org.microg.gms.common.GmsService
 import org.microg.gms.utils.warnOnTransactionIssues

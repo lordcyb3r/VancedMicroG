@@ -56,7 +56,7 @@ import android.widget.TextView;
 import androidx.annotation.StringRes;
 import androidx.webkit.WebViewClientCompat;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 import org.json.JSONArray;
 import org.microg.gms.auth.AuthConstants;

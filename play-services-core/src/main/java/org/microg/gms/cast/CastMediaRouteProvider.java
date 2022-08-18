@@ -32,8 +32,8 @@ import androidx.mediarouter.media.MediaRouteProvider;
 import androidx.mediarouter.media.MediaRouteProviderDescriptor;
 import androidx.mediarouter.media.MediaRouter;
 
-import com.google.android.gms.cast.CastDevice;
-import com.google.android.gms.cast.CastMediaControlIntent;
+import app.revanced.android.gms.cast.CastDevice;
+import app.revanced.android.gms.cast.CastMediaControlIntent;
 
 import java.net.InetAddress;
 import java.nio.charset.StandardCharsets;

@@ -21,10 +21,10 @@ import android.os.Message;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Api;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.Result;
+import app.revanced.android.gms.common.api.Api;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.PendingResult;
+import app.revanced.android.gms.common.api.Result;
 
 import org.microg.gms.common.api.AbstractPendingResult;
 import org.microg.gms.common.api.ApiClient;

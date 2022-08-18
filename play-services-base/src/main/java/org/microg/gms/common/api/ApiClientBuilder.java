@@ -19,7 +19,7 @@ package org.microg.gms.common.api;
 import android.content.Context;
 import android.os.Looper;
 
-import com.google.android.gms.common.api.Api;
+import app.revanced.android.gms.common.api.Api;
 
 public interface ApiClientBuilder<O extends Api.ApiOptions> {
     ApiClient build(O options, Context context, Looper looper, ApiClientSettings clientSettings, ConnectionCallbacks callbacks, OnConnectionFailedListener connectionFailedListener);

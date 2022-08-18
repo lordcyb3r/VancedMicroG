@@ -10,7 +10,7 @@ This fork tweaks MicroG to be usable by applications that require Google authent
 ## Notable changes
 
 - No longer a system app
-- Package name changed from `com.google.android.gms` to `com.mgoogle.android.gms` to support installation alongside the official MicroG
+- Package name changed from `app.revanced.android.gms` to `app.revanced.android.gms` to support installation alongside the official MicroG
 - Removed unnecessary features:
   - Ads
   - Analytics

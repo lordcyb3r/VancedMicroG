@@ -26,11 +26,11 @@ import android.os.ParcelFileDescriptor;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.data.DataHolder;
-import com.google.android.gms.common.internal.ICancelToken;
-import com.google.android.gms.people.internal.IPeopleCallbacks;
-import com.google.android.gms.people.internal.IPeopleService;
-import com.google.android.gms.people.model.AccountMetadata;
+import app.revanced.android.gms.common.data.DataHolder;
+import app.revanced.android.gms.common.internal.ICancelToken;
+import app.revanced.android.gms.people.internal.IPeopleCallbacks;
+import app.revanced.android.gms.people.internal.IPeopleService;
+import app.revanced.android.gms.people.model.AccountMetadata;
 
 import org.microg.gms.auth.AuthConstants;
 import org.microg.gms.common.NonCancelToken;

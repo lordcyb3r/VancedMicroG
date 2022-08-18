@@ -21,16 +21,16 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.cast.ApplicationMetadata;
-import com.google.android.gms.cast.ApplicationStatus;
-import com.google.android.gms.cast.CastDevice;
-import com.google.android.gms.cast.CastDeviceStatus;
-import com.google.android.gms.cast.JoinOptions;
-import com.google.android.gms.cast.LaunchOptions;
-import com.google.android.gms.cast.internal.ICastDeviceController;
-import com.google.android.gms.cast.internal.ICastDeviceControllerListener;
-import com.google.android.gms.common.api.CommonStatusCodes;
-import com.google.android.gms.common.internal.BinderWrapper;
+import app.revanced.android.gms.cast.ApplicationMetadata;
+import app.revanced.android.gms.cast.ApplicationStatus;
+import app.revanced.android.gms.cast.CastDevice;
+import app.revanced.android.gms.cast.CastDeviceStatus;
+import app.revanced.android.gms.cast.JoinOptions;
+import app.revanced.android.gms.cast.LaunchOptions;
+import app.revanced.android.gms.cast.internal.ICastDeviceController;
+import app.revanced.android.gms.cast.internal.ICastDeviceControllerListener;
+import app.revanced.android.gms.common.api.CommonStatusCodes;
+import app.revanced.android.gms.common.internal.BinderWrapper;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -70,8 +70,8 @@ public class CastDeviceControllerImpl extends ICastDeviceController.Stub impleme
 
         extras.setClassLoader(BinderWrapper.class.getClassLoader());
         this.castDevice = CastDevice.getFromBundle(extras);
-        this.notificationEnabled = extras.getBoolean("com.google.android.gms.cast.EXTRA_CAST_FRAMEWORK_NOTIFICATION_ENABLED");
-        this.castFlags = extras.getLong("com.google.android.gms.cast.EXTRA_CAST_FLAGS");
+        this.notificationEnabled = extras.getBoolean("app.revanced.android.gms.cast.EXTRA_CAST_FRAMEWORK_NOTIFICATION_ENABLED");
+        this.castFlags = extras.getLong("app.revanced.android.gms.cast.EXTRA_CAST_FLAGS");
         BinderWrapper listenerWrapper = (BinderWrapper)extras.get("listener");
         if (listenerWrapper != null) {
             this.listener = ICastDeviceControllerListener.Stub.asInterface(listenerWrapper.binder);

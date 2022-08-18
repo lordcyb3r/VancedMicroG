@@ -24,14 +24,14 @@ import android.os.Looper;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.GeofencingRequest;
-import com.google.android.gms.location.ILocationListener;
-import com.google.android.gms.location.LocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.LocationServices;
-import com.google.android.gms.location.internal.IGeofencerCallbacks;
-import com.google.android.gms.location.internal.ParcelableGeofence;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.location.GeofencingRequest;
+import app.revanced.android.gms.location.ILocationListener;
+import app.revanced.android.gms.location.LocationListener;
+import app.revanced.android.gms.location.LocationRequest;
+import app.revanced.android.gms.location.LocationServices;
+import app.revanced.android.gms.location.internal.IGeofencerCallbacks;
+import app.revanced.android.gms.location.internal.ParcelableGeofence;
 
 import org.microg.gms.common.api.ConnectionCallbacks;
 import org.microg.gms.common.api.GoogleApiClientImpl;

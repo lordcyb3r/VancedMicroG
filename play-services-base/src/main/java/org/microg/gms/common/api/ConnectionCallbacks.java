@@ -7,7 +7,7 @@ package org.microg.gms.common.api;
 
 import android.os.Bundle;
 
-import com.google.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.GoogleApiClient;
 
 public interface ConnectionCallbacks {
 

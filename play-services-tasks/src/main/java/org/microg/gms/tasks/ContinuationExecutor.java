@@ -5,9 +5,9 @@
 
 package org.microg.gms.tasks;
 
-import com.google.android.gms.tasks.Continuation;
-import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tasks.TaskCompletionSource;
+import app.revanced.android.gms.tasks.Continuation;
+import app.revanced.android.gms.tasks.Task;
+import app.revanced.android.gms.tasks.TaskCompletionSource;
 
 import java.util.concurrent.Executor;
 

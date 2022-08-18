@@ -20,7 +20,7 @@ import static android.Manifest.permission.ACCESS_COARSE_LOCATION;
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 import static android.content.pm.PackageManager.PERMISSION_GRANTED;
 import static android.location.LocationManager.GPS_PROVIDER;
-import static com.google.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
+import static app.revanced.android.gms.location.LocationRequest.PRIORITY_HIGH_ACCURACY;
 
 import android.Manifest;
 import android.app.PendingIntent;
@@ -35,11 +35,11 @@ import android.util.Log;
 
 import androidx.lifecycle.Lifecycle;
 
-import com.google.android.gms.common.api.Status;
-import com.google.android.gms.location.ILocationListener;
-import com.google.android.gms.location.LocationRequest;
-import com.google.android.gms.location.internal.FusedLocationProviderResult;
-import com.google.android.gms.location.internal.LocationRequestUpdateData;
+import app.revanced.android.gms.common.api.Status;
+import app.revanced.android.gms.location.ILocationListener;
+import app.revanced.android.gms.location.LocationRequest;
+import app.revanced.android.gms.location.internal.FusedLocationProviderResult;
+import app.revanced.android.gms.location.internal.LocationRequestUpdateData;
 
 import org.microg.gms.common.PackageUtils;
 import org.microg.gms.common.Utils;

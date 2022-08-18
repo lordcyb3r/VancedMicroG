@@ -15,7 +15,7 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.VolleyError
 import com.android.volley.toolbox.Volley
-import com.mgoogle.android.gms.BuildConfig
+import app.revanced.android.gms.BuildConfig
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
@@ -53,7 +53,7 @@ class AppCertManager(private val context: Context) {
                 val sessionId = Random.nextLong()
                 val token = completeRegisterRequest(context, GcmDatabase(context), RegisterRequest().build(context)
                         .checkin(lastCheckinInfo)
-                        .app("com.google.android.gms", Constants.GMS_PACKAGE_SIGNATURE_SHA1, BuildConfig.VERSION_CODE)
+                        .app("app.revanced.android.gms", Constants.GMS_PACKAGE_SIGNATURE_SHA1, BuildConfig.VERSION_CODE)
                         .sender(REGISTER_SENDER)
                         .extraParam("subscription", REGISTER_SUBSCIPTION)
                         .extraParam("X-subscription", REGISTER_SUBSCIPTION)
@@ -95,7 +95,7 @@ class AppCertManager(private val context: Context) {
                         return mapOf(
                                 "User-Agent" to "GoogleAuth/1.4 (${Build.DEVICE} ${Build.ID}); gzip",
                                 "content-type" to "application/octet-stream",
-                                "app" to "com.google.android.gms",
+                                "app" to "app.revanced.android.gms",
                                 "device" to androidId.toString(16)
                         )
                     }

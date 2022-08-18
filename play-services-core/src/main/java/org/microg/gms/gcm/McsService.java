@@ -82,7 +82,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.legacy.content.WakefulBroadcastReceiver;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 import com.squareup.wire.Message;
 
 import org.microg.gms.checkin.LastCheckinInfo;

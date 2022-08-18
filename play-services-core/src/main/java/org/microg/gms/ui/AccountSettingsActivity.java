@@ -30,7 +30,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 import org.microg.gms.auth.AuthConstants;
 import org.microg.tools.ui.AbstractSettingsActivity;

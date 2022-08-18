@@ -18,7 +18,7 @@ package org.microg.gms.cast;
 
 import android.content.Context;
 
-import com.google.android.gms.cast.Cast;
+import app.revanced.android.gms.cast.Cast;
 
 import org.microg.gms.common.DummyApiClient;
 import org.microg.gms.common.api.ConnectionCallbacks;

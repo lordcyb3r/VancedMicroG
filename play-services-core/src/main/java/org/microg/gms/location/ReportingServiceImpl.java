@@ -21,11 +21,11 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.location.places.PlaceReport;
-import com.google.android.gms.location.reporting.ReportingState;
-import com.google.android.gms.location.reporting.UploadRequest;
-import com.google.android.gms.location.reporting.UploadRequestResult;
-import com.google.android.gms.location.reporting.internal.IReportingService;
+import app.revanced.android.gms.location.places.PlaceReport;
+import app.revanced.android.gms.location.reporting.ReportingState;
+import app.revanced.android.gms.location.reporting.UploadRequest;
+import app.revanced.android.gms.location.reporting.UploadRequestResult;
+import app.revanced.android.gms.location.reporting.internal.IReportingService;
 
 public class ReportingServiceImpl extends IReportingService.Stub {
     private static final String TAG = "GmsLocReportSvcImpl";

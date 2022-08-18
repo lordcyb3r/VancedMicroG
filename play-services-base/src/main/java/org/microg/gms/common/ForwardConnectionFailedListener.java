@@ -16,9 +16,9 @@
 
 package org.microg.gms.common;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesClient;
-import com.google.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.ConnectionResult;
+import app.revanced.android.gms.common.GooglePlayServicesClient;
+import app.revanced.android.gms.common.api.GoogleApiClient;
 
 public final class ForwardConnectionFailedListener
         implements GoogleApiClient.OnConnectionFailedListener {

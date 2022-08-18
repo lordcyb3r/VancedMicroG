@@ -16,10 +16,10 @@
 
 package org.microg.gms.cast;
 
-import com.google.android.gms.cast.CastRemoteDisplay;
-import com.google.android.gms.cast.CastRemoteDisplayApi;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
+import app.revanced.android.gms.cast.CastRemoteDisplay;
+import app.revanced.android.gms.cast.CastRemoteDisplayApi;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.PendingResult;
 
 public class CastRemoteDisplayApiImpl implements CastRemoteDisplayApi {
     @Override

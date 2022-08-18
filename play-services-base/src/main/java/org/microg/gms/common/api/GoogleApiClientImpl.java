@@ -23,11 +23,11 @@ import android.util.Log;
 
 import androidx.fragment.app.FragmentActivity;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.Api;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.Status;
+import app.revanced.android.gms.common.ConnectionResult;
+import app.revanced.android.gms.common.api.Api;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.PendingResult;
+import app.revanced.android.gms.common.api.Status;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -13,8 +13,8 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.preference.Preference
 import androidx.preference.SwitchPreferenceCompat
-import com.google.android.gms.cast.media.CastMediaRouteProviderService
-import com.mgoogle.android.gms.R
+import app.revanced.android.gms.cast.media.CastMediaRouteProviderService
+import app.revanced.android.gms.R
 import org.microg.gms.checkin.CheckinPrefs
 import org.microg.gms.gcm.GcmDatabase
 import org.microg.gms.gcm.getGcmServiceInfo

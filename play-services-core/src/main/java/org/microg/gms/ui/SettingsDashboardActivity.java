@@ -18,7 +18,7 @@ package org.microg.gms.ui;
 
 import androidx.fragment.app.Fragment;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 import org.microg.tools.ui.AbstractDashboardActivity;
 

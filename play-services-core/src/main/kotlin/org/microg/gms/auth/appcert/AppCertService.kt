@@ -11,7 +11,7 @@ import android.content.Intent
 import android.os.IBinder
 import android.os.Parcel
 import android.util.Log
-import com.google.android.gms.auth.appcert.IAppCertService
+import app.revanced.android.gms.auth.appcert.IAppCertService
 import kotlinx.coroutines.runBlocking
 import org.microg.gms.common.PackageUtils
 import org.microg.gms.utils.warnOnTransactionIssues

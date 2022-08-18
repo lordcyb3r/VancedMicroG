@@ -11,8 +11,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import com.mgoogle.android.gms.R
-import com.mgoogle.android.gms.databinding.DeviceRegistrationFragmentBinding
+import app.revanced.android.gms.R
+import app.revanced.android.gms.databinding.DeviceRegistrationFragmentBinding
 import org.microg.gms.checkin.ServiceInfo
 import org.microg.gms.checkin.getCheckinServiceInfo
 import org.microg.gms.checkin.setCheckinServiceConfiguration

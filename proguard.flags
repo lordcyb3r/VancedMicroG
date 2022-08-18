@@ -17,8 +17,8 @@
 -dontnote
 
 # Keep dynamically loaded GMS classes
--keep public class com.google.android.gms.common.security.ProviderInstallerImpl { public *; }
--keep public class com.google.android.gms.cast.framework.internal.CastDynamiteModuleImpl { public *; }
+-keep public class app.revanced.android.gms.common.security.ProviderInstallerImpl { public *; }
+-keep public class app.revanced.android.gms.cast.framework.internal.CastDynamiteModuleImpl { public *; }
 
 # Keep AutoSafeParcelables
 -keep public class * extends org.microg.safeparcel.AutoSafeParcelable {

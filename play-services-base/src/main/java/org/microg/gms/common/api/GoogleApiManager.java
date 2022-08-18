@@ -8,10 +8,10 @@ package org.microg.gms.common.api;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.Api;
-import com.google.android.gms.common.api.GoogleApi;
-import com.google.android.gms.tasks.TaskCompletionSource;
+import app.revanced.android.gms.common.ConnectionResult;
+import app.revanced.android.gms.common.api.Api;
+import app.revanced.android.gms.common.api.GoogleApi;
+import app.revanced.android.gms.tasks.TaskCompletionSource;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -10,7 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.preference.ListPreference
 import androidx.preference.Preference
 import androidx.preference.PreferenceFragmentCompat
-import com.mgoogle.android.gms.R
+import app.revanced.android.gms.R
 import org.microg.gms.gcm.GcmPrefs
 import org.microg.gms.gcm.getGcmServiceInfo
 import org.microg.gms.gcm.setGcmServiceConfiguration

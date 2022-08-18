@@ -22,12 +22,12 @@ public final class GcmConstants {
     public static final String ACTION_C2DM_REGISTRATION = "com.mgoogle.android.c2dm.intent.REGISTRATION";
     public static final String ACTION_C2DM_UNREGISTER = "com.mgoogle.android.c2dm.intent.UNREGISTER";
     public static final String ACTION_GCM_SEND = "com.google.android.gcm.intent.SEND";
-    public static final String ACTION_NOTIFICATION_OPEN = "com.google.android.gms.gcm.NOTIFICATION_OPEN";
-    public static final String ACTION_NOTIFICATION_DISMISS = "com.google.android.gms.gcm.NOTIFICATION_DISMISS";
-    public static final String ACTION_SCHEDULE = "com.google.android.gms.gcm.ACTION_SCHEDULE";
-    public static final String ACTION_TASK_READY = "com.google.android.gms.gcm.ACTION_TASK_READY";
-    public static final String ACTION_TASK_INITIALZE = "com.google.android.gms.gcm.SERVICE_ACTION_INITIALIZE";
-    public static final String ACTION_INSTANCE_ID = "com.google.android.gms.iid.InstanceID";
+    public static final String ACTION_NOTIFICATION_OPEN = "app.revanced.android.gms.gcm.NOTIFICATION_OPEN";
+    public static final String ACTION_NOTIFICATION_DISMISS = "app.revanced.android.gms.gcm.NOTIFICATION_DISMISS";
+    public static final String ACTION_SCHEDULE = "app.revanced.android.gms.gcm.ACTION_SCHEDULE";
+    public static final String ACTION_TASK_READY = "app.revanced.android.gms.gcm.ACTION_TASK_READY";
+    public static final String ACTION_TASK_INITIALZE = "app.revanced.android.gms.gcm.SERVICE_ACTION_INITIALIZE";
+    public static final String ACTION_INSTANCE_ID = "app.revanced.android.gms.iid.InstanceID";
 
     public static final String EXTRA_APP = "app";
     public static final String EXTRA_APP_OVERRIDE = "org.microg.gms.gcm.APP_OVERRIDE";
@@ -49,7 +49,7 @@ public final class GcmConstants {
     public static final String EXTRA_MESSAGE_TYPE = "message_type";
     public static final String EXTRA_MESSAGE_ID = "google.message_id";
     public static final String EXTRA_OS_VERSION = "osv";
-    public static final String EXTRA_PENDING_INTENT = "com.google.android.gms.gcm.PENDING_INTENT";
+    public static final String EXTRA_PENDING_INTENT = "app.revanced.android.gms.gcm.PENDING_INTENT";
     public static final String EXTRA_PUBLIC_KEY = "pub2";
     public static final String EXTRA_RAWDATA = "rawData";
     public static final String EXTRA_RAWDATA_BASE64 = "gcm.rawData64";
@@ -80,7 +80,7 @@ public final class GcmConstants {
     public static final String SCHEDULER_ACTION_SCHEDULE = "SCHEDULE_TASK";
 
     public static final String PERMISSION_GTALK = "com.google.android.gtalkservice.permission.GTALK_SERVICE";
-    public static final String PERMISSION_NETWORK_TASK = "com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE";
+    public static final String PERMISSION_NETWORK_TASK = "app.revanced.android.gms.permission.BIND_NETWORK_TASK_SERVICE";
     public static final String PERMISSION_RECEIVE = "com.google.android.c2dm.permission.RECEIVE";
     public static final String PERMISSION_SEND = "com.google.android.c2dm.permission.SEND";
 

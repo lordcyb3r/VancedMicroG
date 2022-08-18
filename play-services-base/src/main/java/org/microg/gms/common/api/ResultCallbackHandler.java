@@ -21,8 +21,8 @@ import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Result;
-import com.google.android.gms.common.api.ResultCallback;
+import app.revanced.android.gms.common.api.Result;
+import app.revanced.android.gms.common.api.ResultCallback;
 
 class ResultCallbackHandler<R extends Result> extends Handler {
     private static final String TAG = "GmsResultCbackHandler";

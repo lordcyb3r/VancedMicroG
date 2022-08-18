@@ -18,8 +18,8 @@ package org.microg.gms.playlog;
 
 import android.os.RemoteException;
 
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
+import app.revanced.android.gms.common.internal.GetServiceRequest;
+import app.revanced.android.gms.common.internal.IGmsCallbacks;
 
 import org.microg.gms.BaseService;
 import org.microg.gms.common.GmsService;

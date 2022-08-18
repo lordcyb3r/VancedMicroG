@@ -7,12 +7,12 @@ package org.microg.gms.phenotype
 
 import android.os.Parcel
 import android.util.Log
-import com.google.android.gms.common.api.Status
-import com.google.android.gms.common.internal.GetServiceRequest
-import com.google.android.gms.common.internal.IGmsCallbacks
-import com.mgoogle.android.gms.phenotype.Configurations
-import com.mgoogle.android.gms.phenotype.internal.IPhenotypeCallbacks
-import com.mgoogle.android.gms.phenotype.internal.IPhenotypeService
+import app.revanced.android.gms.common.api.Status
+import app.revanced.android.gms.common.internal.GetServiceRequest
+import app.revanced.android.gms.common.internal.IGmsCallbacks
+import app.revanced.android.gms.phenotype.Configurations
+import app.revanced.android.gms.phenotype.internal.IPhenotypeCallbacks
+import app.revanced.android.gms.phenotype.internal.IPhenotypeService
 import org.microg.gms.BaseService
 import org.microg.gms.common.GmsService
 import org.microg.gms.utils.warnOnTransactionIssues

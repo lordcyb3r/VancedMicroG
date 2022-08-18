@@ -23,11 +23,11 @@ import android.os.Parcel;
 import android.os.RemoteException;
 import android.util.Log;
 
-import com.google.android.gms.common.api.Scope;
-import com.google.android.gms.common.internal.GetServiceRequest;
-import com.google.android.gms.common.internal.IGmsCallbacks;
-import com.google.android.gms.common.internal.IGmsServiceBroker;
-import com.google.android.gms.common.internal.ValidateAccountRequest;
+import app.revanced.android.gms.common.api.Scope;
+import app.revanced.android.gms.common.internal.GetServiceRequest;
+import app.revanced.android.gms.common.internal.IGmsCallbacks;
+import app.revanced.android.gms.common.internal.IGmsServiceBroker;
+import app.revanced.android.gms.common.internal.ValidateAccountRequest;
 
 import org.microg.gms.common.GmsService;
 

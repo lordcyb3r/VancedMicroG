@@ -5,19 +5,19 @@
 
 package org.microg.gms.tasks;
 
-import static com.google.android.gms.tasks.TaskExecutors.MAIN_THREAD;
+import static app.revanced.android.gms.tasks.TaskExecutors.MAIN_THREAD;
 
 import android.app.Activity;
 
-import com.google.android.gms.tasks.Continuation;
-import com.google.android.gms.tasks.DuplicateTaskCompletionException;
-import com.google.android.gms.tasks.OnCanceledListener;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.RuntimeExecutionException;
-import com.google.android.gms.tasks.SuccessContinuation;
-import com.google.android.gms.tasks.Task;
+import app.revanced.android.gms.tasks.Continuation;
+import app.revanced.android.gms.tasks.DuplicateTaskCompletionException;
+import app.revanced.android.gms.tasks.OnCanceledListener;
+import app.revanced.android.gms.tasks.OnCompleteListener;
+import app.revanced.android.gms.tasks.OnFailureListener;
+import app.revanced.android.gms.tasks.OnSuccessListener;
+import app.revanced.android.gms.tasks.RuntimeExecutionException;
+import app.revanced.android.gms.tasks.SuccessContinuation;
+import app.revanced.android.gms.tasks.Task;
 
 import java.util.Queue;
 import java.util.concurrent.CancellationException;

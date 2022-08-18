@@ -16,12 +16,12 @@
 
 package org.microg.gms.cast;
 
-import com.google.android.gms.cast.ApplicationMetadata;
-import com.google.android.gms.cast.Cast;
-import com.google.android.gms.cast.LaunchOptions;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.PendingResult;
-import com.google.android.gms.common.api.Status;
+import app.revanced.android.gms.cast.ApplicationMetadata;
+import app.revanced.android.gms.cast.Cast;
+import app.revanced.android.gms.cast.LaunchOptions;
+import app.revanced.android.gms.common.api.GoogleApiClient;
+import app.revanced.android.gms.common.api.PendingResult;
+import app.revanced.android.gms.common.api.Status;
 
 import java.io.IOException;
 

@@ -9,7 +9,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.mgoogle.android.gms.R;
+import app.revanced.android.gms.R;
 
 public class SettingsActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;

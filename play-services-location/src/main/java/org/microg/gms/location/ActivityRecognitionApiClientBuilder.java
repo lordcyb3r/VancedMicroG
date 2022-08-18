@@ -19,7 +19,7 @@ package org.microg.gms.location;
 import android.content.Context;
 import android.os.Looper;
 
-import com.google.android.gms.common.api.Api.ApiOptions.NoOptions;
+import app.revanced.android.gms.common.api.Api.ApiOptions.NoOptions;
 
 import org.microg.gms.common.api.ApiClient;
 import org.microg.gms.common.api.ApiClientBuilder;
