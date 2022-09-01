@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.google.android.gms.chimera.container;
+package com.mgoogle.android.gms.chimera.container;
 
 import android.content.Context;
 import android.os.RemoteException;
@@ -22,7 +22,7 @@ import android.util.Log;
 
 import com.google.android.gms.dynamic.IObjectWrapper;
 import com.google.android.gms.dynamic.ObjectWrapper;
-import com.google.android.gms.dynamite.IDynamiteLoader;
+import com.mgoogle.android.gms.dynamite.IDynamiteLoader;
 
 public class DynamiteLoaderImpl extends IDynamiteLoader.Stub {
     private static final String TAG = "GmsDynamiteLoaderImpl";
