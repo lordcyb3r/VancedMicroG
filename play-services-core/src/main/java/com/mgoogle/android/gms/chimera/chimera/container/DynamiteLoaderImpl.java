@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.mgoogle.android.gms.chimera.container;
+package com.mgoogle.android.gms.chimera.chimera.container;
 
 import android.content.Context;
 import android.os.RemoteException;
