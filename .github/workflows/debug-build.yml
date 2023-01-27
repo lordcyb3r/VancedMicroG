@@ -3,10 +3,10 @@ name: Debug APK Build
 on:
   push:
     branches:
-      - o
+      - master
   pull_request:
     branches:
-      - o
+      - master
 
 jobs:
   build:
